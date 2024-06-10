@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.thesmartfoodhub">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/applogo"
+        android:label="SmartFood"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.thesmartfoodhub"
+        tools:ignore="AllowBackup">
+        <activity android:name=".LoginOTP" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginName" />
+        <activity android:name=".Logup"/>
+        <activity android:name=".Signup"/>
+        <activity android:name=".UserdataActivity" />
+        <activity android:name=".History" />
+        <activity android:name=".MyPin" />
+        <activity android:name=".About" />
+        <activity android:name=".FoodMap" />
+        <activity android:name=".Receive" />
+        <activity android:name=".Contact" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Donate" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="Google_API_KEY" />
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "376129895893",
+    "firebase_url": "https://the-smartfood-hub-9f580-default-rtdb.firebaseio.com",
+    "project_id": "the-smartfood-hub-9f580",
+    "storage_bucket": "the-smartfood-hub-9f580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376129895893:android:634e4be5e14cd0b46b515c",
+        "android_client_info": {
+          "package_name": "com.example.thesmartfoodhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "Google_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
