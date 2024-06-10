@@ -31,4 +31,4 @@ Contribution:
 
 	This project is open-source, and contributions from the community are welcome. If you have ideas for new features, bug fixes, or improvements, feel 	free to fork the repository and submit pull requests.
 	
-	https://github.com/Kishore-Kumar-T/The-SmartFood-Hub-Application
+	https://github.com/basha-a/The-SmartFood-Hub-Application
